@@ -1,6 +1,6 @@
-# ViviaVideo React Tool
+# ViviaVideo React Template
 
-react + antd 脚手架工具
+react + antd 脚手架工具模版
 
 # How to use
 
