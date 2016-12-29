@@ -1,7 +1,7 @@
 {
-  "name": "vivia-video-react-tool",
+  "name": "viva-video-react-tool",
   "version": "1.0.0",
-  "description": "A vivia video react tool",
+  "description": "A viva video react tool",
   "main": "index.js",
   "scripts": {
     "start": "export NODE_ENV=development && webpack-dashboard -- node webpack/server.js && npm run lint:watch",
