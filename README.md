@@ -1,4 +1,4 @@
-# ViviaVideo React Template
+# VivaVideo React Template
 
 react + antd 脚手架工具模版
 
