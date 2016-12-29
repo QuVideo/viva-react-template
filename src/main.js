@@ -6,7 +6,7 @@ import './style.less'
 
 ReactDOM.render(
   <div className="app">
-    <h1>ViviaVideo React Tool</h1>
+    <h1>VivaVideo React Tool</h1>
     <Button type="primary">Enter</Button>
   </div>,
   document.getElementById('root')
