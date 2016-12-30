@@ -1,10 +1,10 @@
 {
-  "name": "viva-video-react-tool",
+  "name": "viva-react-template",
   "version": "1.0.0",
-  "description": "A viva video react tool",
+  "description": "A viva video react tool template",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=development && webpack-dashboard -- node webpack/server.js && npm run lint:watch",
+    "start": "export NODE_ENV=development && webpack-dashboard -- node webpack/server.js",
     "build": "export NODE_ENV=production && node webpack/build.js",
     "lint": "eslint --ext .js,.jsx src",
     "lint:watch": "npm run lint --watch",
