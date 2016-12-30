@@ -24,5 +24,6 @@ npm run lint
 - [x] 图片处理
 - [x] JS 压缩
 - [x] CSS 分离
+- [x] 模块化 CSS
 - [x] SourceMap 代码映射
 - [x] 开发环境 Dashboard 界面
