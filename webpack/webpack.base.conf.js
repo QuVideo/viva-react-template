@@ -20,7 +20,15 @@ module.exports = {
       exclude: /node_modules/
     }, {
       test: /(\.css|\.less)$/,
-      loaders: ['style', 'css', 'less']
+      loader: 'style'
+              + '!css-loader'
+              + '?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+              + '!less',
+      exclude: /node_modules/
+    }, {
+      test: /(\.css|\.less)$/,
+      loader: 'style!css-loader!less',
+      include: /node_modules/
     }, {
       test: /\.json$/,
       loader: 'json'
