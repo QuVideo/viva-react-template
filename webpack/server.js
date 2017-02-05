@@ -1,3 +1,4 @@
+var path = require('path')
 var webpack = require('webpack')
 var webpackDevServer = require('webpack-dev-server')
 var webpackDevConfig = require('./webpack.dev.conf')
@@ -14,7 +15,7 @@ var server = new webpackDevServer(compiler, {
   hot: true,
   inline: true,
   progress: true,
-  contentBase: '/src',
+  contentBase: path.join(__dirname, '../src/'),
   stats: { colors: true }
 })
 
