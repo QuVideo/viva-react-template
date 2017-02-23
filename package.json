@@ -4,7 +4,7 @@
   "description": "A viva video react tool template",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=development && webpack-dashboard -- node webpack/server.js",
+    "start": "export NODE_ENV=development && node webpack/server.js",
     "build": "export NODE_ENV=production && node webpack/build.js",
     "lint": "eslint --ext .js,.jsx src",
     "lint:watch": "npm run lint --watch",
